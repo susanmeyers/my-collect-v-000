@@ -5,10 +5,6 @@ def my_collect(array)
     #binding.pry
     collection << language.upcase
   end
-  
-  
-  
-  
-  
+    collection
 end
 
