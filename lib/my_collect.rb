@@ -1,7 +1,7 @@
 # require 'pry"
 def my_collect(array)
   collection = []
-  array.collect do |language.upcase|
+  array.collect do |language|
     collection << array
   end
   
