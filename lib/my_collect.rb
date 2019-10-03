@@ -3,7 +3,7 @@ def my_collect(array)
   collection = []
   array.collect do |language|
     binding.pry
-    collection << array
+    collection << language.upcase
   end
   
   
