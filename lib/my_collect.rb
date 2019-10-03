@@ -1,7 +1,9 @@
 # require 'pry"
 def my_collect(array)
   collection = []
-  array.collect { |language| language.upcase|}
+  array.collect do |language| language.upcase|
+    binding.pry
+  end
   
   
   
