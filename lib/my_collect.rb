@@ -6,5 +6,12 @@ def my_collect(array)
     collection << language.upcase
   end
     collection
+    
+    
+
+
+
+
+
 end
 
